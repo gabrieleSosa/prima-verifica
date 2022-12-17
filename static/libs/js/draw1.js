@@ -21,13 +21,10 @@ function setup() {
 function draw() {
     
     let r = random()
-    
-    // square(x, y, lato)
-    
+
 
     if (r>0.5) {
         
-        //line(30, 20, 85, 20);
         line(x+lato, y, x, y+lato)
         
     } else {
